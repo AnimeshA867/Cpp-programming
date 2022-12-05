@@ -5,6 +5,12 @@
  return_type operator (args...){
     function-body;
  }
+
+ Rules for overloading operators:
+ To overload any operator, we need to understand the rules applicable.
+ They are:
+ 1) Operators already predefined in the C++ compiler can only be overloaded.
+ 2) If the operator is being overloaded through a member function, it takes one argument less than the operator being overloaded through member function. Thus binary operator being overloaded through a member function will only take one argument.
 */
 
 #include<iostream>
