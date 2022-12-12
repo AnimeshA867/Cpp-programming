@@ -9,6 +9,7 @@ class student{
 
     public:
     student(){
+        cout<<sizeof(string)<<endl;
         cout<<"Enter the name of the student:";
         getline(cin>>ws,name);
         cout<<"Enter the roll no.:";
