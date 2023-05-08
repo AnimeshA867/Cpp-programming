@@ -26,7 +26,7 @@ class derived: public base{
 int main(){
     base b, *bptr;
     derived d;
-    bptr=&d;
+    bptr=&b;
     bptr->display();
 
     return 0;

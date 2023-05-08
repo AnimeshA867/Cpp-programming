@@ -11,10 +11,10 @@ class student{
     public:
     void get_data(){
         cout<<"Enter the name:";
-        cin.getline(name,79);
+        cin>>name;
 
         cout<<"Enter the address:";
-       cin.getline(address,79);
+      cin>>address;
         cout<<"Enter the roll no.:";
         cin>>roll;
     }
